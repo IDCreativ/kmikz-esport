@@ -1,0 +1,18 @@
+nav {
+    min-height: 80px;
+    background-color: var(--color-lightest);
+    color: var(--color-heading);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    // padding: 0 50px 0 0;
+    border-right: 1px solid var(--color-border);
+    img {
+        height: 50px;
+    }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="message.flash.test">
+                <source>message.flash.test</source>
+                <target>This is a Flash message</target>
+            </trans-unit>
+            <trans-unit id="message.hello">
+                <source>message.hello</source>
+                <target>Hello</target>
+            </trans-unit>
+            <trans-unit id="message.resetPWD_1">
+                <source>message.resetPWD_1</source>
+                <target>To reset your password, please visit the following link</target>
+            </trans-unit>
+            <trans-unit id="message.resetPWD_2">
+                <source>message.resetPWD_2</source>
+                <target>This link will expire in</target>
+            </trans-unit>
+            <trans-unit id="message.resetPWD_btn">
+                <source>message.resetPWD_btn</source>
+                <target>Reset</target>
+            </trans-unit>
+            <trans-unit id="menu.home">
+                <source>menu.home</source>
+                <target>Home</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
