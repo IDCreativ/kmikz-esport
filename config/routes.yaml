@@ -1,6 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
 homepage:
     path: /{_locale}
     controller: App\Controller\AppController::home

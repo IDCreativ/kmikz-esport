@@ -1,4 +1,4 @@
-{% extends 'base.html.twig' %}
+{% extends 'construction.html.twig' %}
 
 {% block title %}
 	{{ 'menu.home'|trans }}
@@ -8,20 +8,58 @@
 
 {% block body %}
 
-    {% include '_blocks/slider-home.html.twig' %}
-
-	{% include '_blocks/cards-group.html.twig' %}
-
-    <div class="container">
-		<hr class="section-divider">
+	<div class="container py-4">
+		<div class="row">
+			<div class="col">
+				<h1 class="d-flex justify-content-center align-items-center">// Site en construction
+				</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col d-flex justify-content-center align-items-center">
+				<img src="assets/img/home-title-area-img.jpg" class="img-fluid">
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col">
+				<h2 class="d-flex justify-content-center align-items-center">
+					<small>Retrouvez-nous sur nos réseaux sociaux</small>
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col d-flex justify-content-center align-items-center">
+				<div class="social-links">
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/kmikz.fr/" class="btn text-white border-0 rounded-0 btn-gradient" target="_blank">
+								<i class="fab fa-facebook-f fa-fw"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/kmikz_esport/" class="btn text-white border-0 rounded-0 btn-gradient" target="_blank">
+								<i class="fab fa-instagram fa-fw"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/KMiKZeSport" class="btn text-white border-0 rounded-0 btn-gradient" target="_blank">
+								<i class="fab fa-twitter fa-fw"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.twitch.tv/KMiKZ_eSport" class="btn text-white border-0 rounded-0 btn-gradient" target="_blank">
+								<i class="fab fa-twitch fa-fw"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/user/KmiKzeSport" class="btn text-white border-0 rounded-0 btn-gradient" target="_blank">
+								<i class="fab fa-youtube fa-fw"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
-
-    {% include '_blocks/masonry.html.twig' %}
-
-    <div class="container">
-		<hr class="section-divider">
-	</div>
-
-    {% include '_blocks/sections.html.twig' %}
 
 {% endblock %}
